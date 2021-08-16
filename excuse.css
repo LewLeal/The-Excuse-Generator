@@ -1,0 +1,19 @@
+.filter{
+    background-color: rgb(214, 190, 245);
+}
+.excuse-format {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: auto;
+}
+.line
+{
+    padding: 10%;
+}
+.titulo{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(18, 179, 207);
+    text-align: center;
+   
+}
