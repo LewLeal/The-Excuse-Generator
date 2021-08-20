@@ -19,5 +19,5 @@ window.onload = function () {
   let randomWhen= when[randomWhenPosition];
   let randomActions= actions[randomactionsPosition];
   
-  document.getElementById("excuse").innerHTML = randomWho + " " + randomWhat + " " + randomActions + " " + randomWhen + " " ;
+  document.getElementById("excuse").innerHTML = randomWho + " " + randomWhat + " " + randomActions + " " + randomWhen + " ." ;
 };
