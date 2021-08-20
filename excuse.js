@@ -15,9 +15,9 @@ window.onload = function () {
   let randomactionsPosition = Math.floor(Math.random()* actions.length);
   
   let randomWho= who[randomWhoPosition];
-  let randomWhat= who[randomWhatPosition];
-  let randomWhen= who[randomWhenPosition];
-  let randomActions= who[randomactionsPosition];
+  let randomWhat= what[randomWhatPosition];
+  let randomWhen= when[randomWhenPosition];
+  let randomActions= actions[randomactionsPosition];
   
   document.getElementById("excuse").innerHTML = randomWho + " " + randomWhat + " " + randomActions + " " + randomWhen + " " ;
 };
